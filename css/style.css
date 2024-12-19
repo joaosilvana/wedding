@@ -1377,11 +1377,10 @@ form label {
 #fh5co-testimonial .wrap-testimony .testimony-slide figure img {
   width: 100px;
   height: 100px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  object-fit: cover; /* Garante que a imagem preencha o círculo sem distorcer */
+  border-radius: 50%; /* Mantém o formato circular */
 }
+
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
   border: none;
   margin: 30px auto;
