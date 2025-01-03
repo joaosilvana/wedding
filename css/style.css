@@ -2336,4 +2336,21 @@ fadeIn {  from {
   background-size: cover;
 }
 
+
+/* Video container to ensure the video fits nicely within the carousel */
+.video-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Ensures the video fills the container but keeps its aspect ratio */
+.carousel-item video {
+  width: 100%;
+  height: auto; /* Maintains the aspect ratio */
+  max-height: 500px; /* Optional: adjust if you want to limit the height */
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */
